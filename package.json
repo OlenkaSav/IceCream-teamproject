@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://86andrey.github.io/IceCream-project-12",
+  "homepage": "https://olenkasav.github.io/IceCream-teamproject/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /IceCream-project-12/"
+    "build": "parcel build src/*.html --public-url /IceCream-teamproject/"
   },
   "repository": {
     "type": "git",
