@@ -1,0 +1,212 @@
+.cocktail__image {
+  position: absolute;
+  right: 50px;
+  width: 249px;
+  bottom: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (min-width: 480px) {
+    width: 249px;
+  }
+  // @media screen and (min-width: 768px) {
+  //   width: 220px;
+  // }
+  @media screen and (min-width: 1200px) {
+    width: 335px;
+  }
+  
+}
+.products {
+  padding-top: 121px;
+  padding-bottom: 98px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    padding-top: 122px;
+    padding-bottom: 112px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 127px;
+    padding-bottom: 119px;
+    padding-left: 117px;
+    padding-right: 117px;
+  }
+}
+.products-up__text {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+.products-up__title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+  margin-bottom: 144px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 150px;
+    margin-top: 15px;
+    font-size: 48px;
+    line-height: 55px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 58px;
+    line-height: 66px;
+    margin-bottom: 259px;
+  }
+}
+.products-list {
+  //margin-top: 260px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+.products-list__item {
+  width: 33%;
+  @media screen and (min-width: 320px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+}
+.products-list__item:not(:last-child) {
+  @media screen and (max-width: 480px) {
+    margin-bottom: 140px;
+  }
+  @media screen and (max-width: 769px) {
+    margin-bottom: 140px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
+  }
+}
+.products-content {
+  text-align: center;
+  // padding: 0px 44px 66px 44px;
+  
+  @media screen and (min-width: 768px) {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+}
+.products-content__title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  // margin-top: 22px;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+.products-content__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2px;
+    @media screen and (min-width: 1200px) {
+      margin-right: 4px;
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  
+}
+.products-content__text {
+  width: 200px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 152%;
+  // text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin: 30px auto;
+  // margin-bottom: 30px;
+  // text-align: center;
+  @media screen and (min-width: 768px) {
+  line-height: 176%;
+  width: 198px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.cocktail {
+  border-radius: 24px;
+  position: relative;
+  // height: 485px;
+  padding-top: 161px;
+  padding-bottom: 41px;
+  @media screen and (min-width: 1200px) {
+    height: 525px;
+  }
+}
+.cocktail-pink {
+  background: #ffb8ca;
+}
+.cocktail-orange {
+  background: #f0d1a5;
+}
+.cocktail-green {
+  background: #c2e297;
+}
+.products-content__button {
+  border-radius: 50%;
+  margin-bottom: 41px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  // position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}

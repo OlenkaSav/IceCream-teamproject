@@ -1,0 +1,63 @@
+<section class="about">
+    <div class="container about-bg-image">
+        <p class="about-label">tradition and love</p>
+        <h2 class="about-title" id="about">how it’s made?</h2>
+        <div class="about__image">
+            <div class="about-picture">
+                <picture>
+                    <source srcset="images/about/aboutCow-desk.png 1x, images/about/aboutCow-desk@2x.png 2x"
+                        media="(min-width: 1200px)" />
+                    <source srcset="images/about/aboutCow-tab.png 1x, images/about/aboutCow-tab@2x.png 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="images/about/aboutCow-mob.png 1x, images/about/aboutCow-mob@2x.png 2x"
+                        media="(min-width: 320px)" />
+                    <img src="./images/about/aboutCow-mob.png" alt="cow-image" />
+                </picture>
+            </div> 
+            <div class="about-list-container">
+                   <p class="about-list__text about-list__text-dark">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam
+                            vel justo cursus,
+                            faucibus lorem eget, egestas eros.
+                            Maecenas eleifend erat at justo fringilla.</p>
+                    
+                 <p class="about-list__text about-list__text-light">Curabitur lacinia enim at ex blandit, vel pellentesque odio
+                            elementum. Mauris
+                            rhoncus orci in imperdiet placerat.
+                            Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+                            tincidunt.</p>
+                <p class="about-list__text-light ">Aliquam erat
+                                volutpat. Aenean accumsan.
+                 </p>
+                    
+              
+                <button class="about-btn" data-modalAbout-open type="submit">
+                    Read more
+                    <svg class="about-btn__icon" width="4" height="8">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="backdrop is-hidden" data-modalAbout>
+            <div class="modal">
+                <form class="modal-form" autocomplete="off">
+                    <!-- <label class="modal-form-title">Оставьте свои данные, мы вам перезвоним</label> -->
+                    <div class="modal-about__list cow-modal">
+                            <p class="modal-about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quos natus accusamus maxime voluptatibus est, repellendus adipisci ipsum earum necessitatibus velit neque obcaecati, dignissimos illo rerum incidunt aut tempora numquam!
+                            </p>
+                        
+                             <p class="modal-about__text">Ista sequitur ex secunda, quia cum sit totus sine dimensione, et etiam dimensionis infinitae, non erit in sphaera suae essentiae extremum. Igitur non est in extremo punctus quin exterius sit circumferentia.</p>
+                        
+                            <p class="modal-about__text">Curabitur lacinia enim at ex blandit, vel pellentesque odio lementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt. Aliquam erat volutpat. Aenean accumsan.</p>
+                             <!-- <img src="../images/about/cow-modal.jpg" alt="cow bg" class="cow-modal">                      -->
+                        </div>
+                </form>
+                <button class="btn-modal" data-modalAbout-close>
+                    <svg class="icon-close">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
